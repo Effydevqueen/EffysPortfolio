@@ -1,0 +1,438 @@
+@import url();
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.body {
+    background: #081b29;
+    color: #ededed;
+    height: auto ;
+    padding: 1% 2%;
+
+}
+h2{
+    color: #00abf0;
+    font-size: 25px;
+
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    background-color: #57c2ec;
+}
+.header-th {
+    position: fixed;
+    width: 100%;
+    padding-bottom: 20px;
+    background: #081b29;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+}
+
+.header img{
+    height: 100px;
+    width: 100px;
+    display: inline-flex;
+    align-items: left;
+    
+}
+.header-th img{
+    height: 80px;
+    width: 80px;
+    display: inline-flex;
+    align-items: left;
+}
+/*.logo{
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+
+}*/
+
+.navbar a {
+    font-size: 18px;
+    font-weight: 800;
+    color:  #ededed;
+    text-decoration: none;
+    margin-left: 35px;
+    transition: 5s;
+}
+/*.navbar a{
+    text-decoration: none;
+}*/
+.navbar a:hover,
+.navbar a:active {
+    color: #00abf0;
+    background-color: #081b29;
+
+}
+.home{
+    height: 100vh;
+    background: url('./Myassets/steez101.png')no-repeat;
+    background-size: 70vh;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    padding: 20px 10%;
+}
+.home-display {
+    padding-top: 100px;
+    display: flex;
+   align-items: right;
+    flex-direction: row;
+    height: 100%;
+    width: 300;
+
+}
+.header-fm{
+    position: fixed;
+    width: 100%;
+    padding: 40px 20%;
+    background: #081b29;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;}
+
+/*.home-divide-lft{
+    box-sizing: border-box;
+    height:100%;
+    width: 100px;
+    margin-left: 30px;
+}
+.home-divide-rgt{
+    box-sizing: border-box;
+    display: flex;
+    align-content: right;
+    height:100%;
+    width: 100px;
+}
+*/
+.home-content{
+    padding: 50px;
+    max-width: 600px;
+    max-height: 70%;
+}
+/*.home-content-fm {
+    background-color: #ededed;
+    background-size: 70vh;
+    background-position: right;
+
+.xc{
+    height: 20px;
+
+}*/
+.home-content h1 {
+    
+    padding-bottom: 35px;  
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+
+}
+.home-content h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #00abf0;
+
+}
+.home-content p{
+    font-size: 15px;
+    margin: 20px 0 40px;
+    padding-top: 40px 10%;
+    padding-bottom: 20px;
+    color: #ededed;
+}
+.home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    height: 50px;
+}
+.form{
+    text-decoration: 5px solid black;
+    background-color: #ededed;
+    height: 80%;
+    width: 50%;
+    align-items:right;
+}
+.form-row{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
+    margin: 15px 0;
+    /* border: 3px solid yellow; */
+}
+.form-child-div {
+    
+
+}
+.form-control {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+    height: calc(1.4em + 1.5rem + 1px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000812;
+    background-color: rgb(219, 208, 208);
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;}
+
+/*
+.form-body {
+    background: url('./Myassets/altschoolcaapimg.png') no-repeat;         
+    background-size: 100vh;
+    background-position: left;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    padding: 40px
+}*/
+.btn-box a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: #00abf0;
+    border: 2px solid #00abf0;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #081b29;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-left: 7px;
+    overflow: hidden;
+
+}
+.btn-box, a:active{
+    color: #00abf0;
+    height: auto;
+}
+.container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    height: auto; 
+    width: 100%;
+
+}
+.background-image {
+    background-image: url('./Myassets/altschoolcaapimg.png')no-repeat;
+    background-size: contain ;
+    background-position:center;
+    padding: 20px;
+    width: 50%;
+}
+
+.content-2 {
+
+    width: 50%;
+    padding: 40px;
+    /* background-color: red;  */
+}
+.content-2  a , h2 ,p { 
+    margin-bottom: 25px;
+    color: #000812;
+    text-decoration: none;
+
+    
+    /* background-color: red;  */
+}
+.content-1 {
+    width: 50%;
+    padding: 40px 10px;
+    background-color: white
+}
+.content-1a{
+    height: 50%;
+    width: 100%;
+
+
+}
+.content-1a img{
+    width: 100%;
+    height:100%;    
+    object-fit: contain;
+
+}
+.content-1b{
+    /* height: 50%; */
+    background-color: transparent;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    /* padding: 100px 0; */
+
+}
+.content-1b h2 {
+    line-height: 150%;
+    font-size: 40px;
+    color: #000812;
+    margin-bottom: 15px;
+}
+.content-1b h4 {
+    /* line-height: 150%; */
+    font-size: 16px; 
+    color: #000812;
+    /* margin: 15px 0; */
+}
+.content-1b P {
+    /* line-height: 150%; */
+    font-size: 16px; 
+    color: #000812;
+    margin: 15px 0;
+}
+.content-1b li {
+    list-style-type: none;
+}
+.fa {
+    color: #00abf0;
+    padding: 5px;
+    
+}
+
+/*.page1 {
+    background: url('./Myassets/steez101.JPG') no-repeat center center/cover;
+}
+
+.page2 {
+    background: url('./Myassets/altschoolcaapimg.png') no-repeat center center/cover;
+}
+
+
+.btn-box a:nth-child(2){
+    background: transparent;
+    color: #00abf0;
+}
+/*.btn-box a::before {
+    content: '';
+    position: absolute;
+    top: o;
+    left: o;
+    width: 100%;
+    background: red;
+    z-index: -1;
+    transition: 5s;
+}*/
+.home-side {
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    background: red;
+}
+ table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.table-container{
+    height: 680px;
+}
+th, td {
+    border: 1px solid #081b29;
+    padding: 65px 45px;
+    text-align: left;
+    color:10px #081b29;
+    height: 15px;
+
+} 
+th {
+    background-color: transparent;
+    margin-top: 50px;
+    padding-top: 100px;}
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+.octopus {
+    float: right;
+    margin: 50px 18px;
+}
+.octopus h2 {
+    color: #000812;
+    font-size: 15px;
+
+}
+.octopus h2 a{
+    text-decoration: none;
+}
+      
+/*.table-body{
+    height: 15px;
+    padding-top:50px;
+    background-color: yellowgreen
+}
+table, .th td {
+    border-color: rgb(30, 5, 5);
+
+}*/
+.home-side{
+    display: inline-flex;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+
+}
+.button{
+    padding:15px ;
+    color: black;
+    overflow: hidden;
+}
+.submit{
+    margin-top: 50px;
+    background-color: #00abf0;
+    color: whitesmoke;
+    font-size: 18px;
+}
+.button a:hover {
+    padding:15px ;
+    color: black;
+    overflow: hidden;
+}
+.media-container{
+    height: auto;
+
+}
+.video-content{
+    padding: 0;
+    margin: 0;
+    height: 500px;
+    width: 500px;
+    object-fit: contain;
+    /* background: #00abf0; */
+}
+.audio-content{
+    
+}
+.footer{
+    text-align: center;
+    margin: auto;
+    background-color: #57c2ec;
+    width: 100%;
+    padding: 25px;
+}

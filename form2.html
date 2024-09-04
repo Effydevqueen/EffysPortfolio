@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Doc-form2</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link
+            href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header class="header">
+            <img src="./Myassets/altlogo.png" alt="Alt_logos" />
+            <!--<a href="./Myassets/altlogo.pngs" class="logo">Alt_logo </a>-->
+            <nav class="navbar">
+                <a href="./index.html" class="active">Home</a>
+                <a href="./form2.html">Register</a>
+                <a href="./table.html">Table</a>
+                <a href="./media.html">Media</a>
+                <a href="#">my resume</a>
+            </nav>
+        </header>
+        <div class="octopus">
+            <h2>
+                Already an AltSchooler? <a href="#"><em>Sign In!</em></a>
+            </h2>
+        </div>
+
+        <div class="container">
+            <div class="content-1">
+                <div class="content-1a">
+                    <img
+                        src="./Myassets/altschoolcaapimg.png"
+                        alt="Alt_schlcap"
+                        width="400px"
+                        height="400px"
+                    />
+                </div>
+                <div class="content-1b">
+                    <h2>learn highy sort after skills without hassels</h2>
+                    <li>
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    </li>
+                    <p>Tel: 0800ALTSCHOOL</p>
+                    <h4>©2024 AltSchool Africa. All rights reserved.</h4>
+                </div>
+            </div>
+
+            <div class="content-2">
+                <a href="./form2.html"><h2>Sign up</h2></a>
+                <p>Take the next steps to apply at AltSchool Africa</p>
+                <form class="">
+                    <div class="form-row">
+                        <div>
+                            <label for="lastname">Last name</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="lastname"
+                                placeholder="Enter your surname"
+                            />
+                        </div>
+                        <div>
+                            <label for="firstname">First name</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="firstname"
+                                placeholder="Enter your first name"
+                            />
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-child-div">
+                            <!-- Gender -->
+                            <label for="gender">Gender</label>
+                            <select class="form-control" name="gender">
+                                <option value="">Select Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="prefer_not_to_say">
+                                    Prefer not to say
+                                </option>
+                            </select>
+                        </div>
+                        <div class="form-child-div">
+                            <!-- Date of Birth -->
+                            <label for="dob">D.O.B</label>
+                            <input type="date" class="form-control" name="dob" />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div>
+                            <!-- Email -->
+                            <label for="email">Email</label>
+
+                            <input
+                                type="email"
+                                class="form-control"
+                                name="email"
+                                placeholder="Enter your email"
+                            />
+                        </div>
+                        <div>
+                            <!-- Phone Number -->
+                            <label for="phone">phone</label>
+                            <input
+                                type="number"
+                                class="form-control"
+                                name="phone"
+                                placeholder="Enter your phone"
+                            />
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div>
+                             <!-- Country -->
+                            <label for="country">Country</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="country"
+                                placeholder="Enter your country"
+                            />
+                        </div>
+                        <div>
+                            <!-- State/City of Residence -->
+                            <label for="residence">State/City of Residence</label>
+                            <input
+                                type="text"
+                                class="form-control"
+                                name="residence"
+                                placeholder="Enter your city or state"
+                            />
+                        </div>
+                    </div>
+                    <div class="">
+                            <label>How did you hear about us?</label>
+                            <select class="form-control" name="referral">
+                                <option value="">Select an option</option>
+                                <option value="twitter">Twitter</option>
+                                <option value="facebook">Facebook</option>
+                                <option value="instagram">Instagram</option>
+                                <option value="linkedin">LinkedIn</option>
+                                <option value="youtube">YouTube</option>
+                                <option value="friend">Friend</option>
+                                <option value="billboard">Billboard</option>
+                            </select>
+                    </div>
+                    <div class="form-row">
+                        <div>
+                             <!-- Password -->
+                            <label for="password">Create a password</label>
+                            <input
+                                type="password"
+                                class="form-control"
+                                name="password"
+                                placeholder="Enter password"
+                            /> 
+                        </div>
+                        <div>
+                            <!-- Confirm Password -->
+                            <label for="confirm_password">Confirm Password</label>
+                            <input
+                                type="password"
+                                class="form-control"
+                                name="confirm_password"
+                                placeholder="Confirm password"
+                            />
+                        </div>
+                    </div>
+                    
+            
+                    <p>By clicking continue, I agree to the Terms of Use and
+                        acknowledge that I have read the Privacy Policy.</p>
+                
+                    <label for="agree_terms">I agree to the terms and conditions.</label>
+                    <input
+                        type="checkbox"
+                        id="agree_terms"
+                        name="agree_terms"
+                    />
+                    <!-- Submit Button -->
+                    <input type="submit" class="form-control submit" value="submit" />
+                </form>
+            </div>
+        </div>
+        <br /><br />
+        <div class="btn-box"><a href="#top">back to top</a></div>
+        <br /><br />
+        <!-- <footer class="footer">
+            &copy;.2024 Elizabeth Eziefule. All rights reserved.
+        </footer> -->
+    </body>
+</html>

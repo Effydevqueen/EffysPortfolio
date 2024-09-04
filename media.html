@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Media-Document</title>
+        <link rel="stylesheet" href="./style.css" />
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" />
+    </head>
+    <body>
+        <header class="header">
+            <img src="./Myassets/altlogo.png" alt="Alt_logos" />
+            <!--<a href="./Myassets/altlogo.pngs" class="logo">Alt_logo </a>-->
+            <nav class="navbar">
+                <a href="./index.html" class="active">Home</a>
+                <a href="./form2.html">Register</a>
+                <a href="./table.html">Table</a>
+                <a href="./media.html">Media</a>
+                <a href="#">my resume</a>
+            </nav>
+        </header>
+
+        <div class="media-container">
+            <section class="video-content">
+                <h2>here's a sample video of the nebula</h2>
+                <video controls>
+                    <source
+                        src="./Myassets/nebula-video-30630-hd-ready.mp4"
+                        type="video/mp4"
+                    />
+                </video>
+            </section>
+            <!-- Section 3: Audio Content -->
+            <section class="audio-content">
+                <h2>Audio Content</h2>
+                <audio controls>
+                    <source src="your-audio-path.mp3" type="audio/mp3" />
+                    Your browser does not support the audio element.
+                </audio>
+            </section>
+            <!-- Section 2: Image Content -->
+            <section id="image-content">
+                <h2>Image Content</h2>
+                <img
+                    src="your-image-path.jpg"
+                    alt="Sample Image"
+                    style="width: 50%; max-width: 300px"
+                />
+                <p>
+                    Images enhance the visual appeal of a webpage and help to
+                    convey information quickly. This section can include
+                    photographs, illustrations, or graphics.
+                </p>
+            </section>
+            <!-- Section 2: Image Content -->
+            <section class="picture-content">
+                <h2>Picture</h2>
+                <picture> </picture>
+                <p>
+                    Images enhance the visual appeal of a webpage and help to
+                    convey information quickly. This section can include
+                    photographs, illustrations, or graphics.
+                </p>
+            </section>
+        </div>
+        <footer class="footer">
+            <p>&copy; 2024 Your Name. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
